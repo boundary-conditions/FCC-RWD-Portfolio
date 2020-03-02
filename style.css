@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #188764;
+    margin: 0;
+    border: none;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li {
+    float:right;
+    border-left: 1px solid #000;
+}
+
+a {
+    font-family: 'Nunito';
+    text-decoration: none;
+    color: #FFF;
+    display: block;
+    padding: 15px;
+}
+
+li a:hover {
+    background-color: #046A38;
+}
