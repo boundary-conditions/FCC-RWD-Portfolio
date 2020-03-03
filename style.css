@@ -9,7 +9,7 @@ body {
     background-color: #188764;
     margin: 0;
     border: none;
-
+    height: 50px;
 }
 
 ul {
@@ -33,4 +33,24 @@ a {
 
 li a:hover {
     background-color: #046A38;
+}
+
+#welcome-section{
+    background-color: #000;
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+    line-height: 100vh;
+    height: 100vh;
+}
+
+h1 {
+    font-family: 'Roboto Mono';
+    color: #fff;
+    
+}
+
+p {
+    font-family: 'Nunito';
+    color: #fff;
 }
