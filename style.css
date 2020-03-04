@@ -88,6 +88,18 @@ p {
     grid-area: 2 / 3 / 5 / 4;
 }
 
+@media screen and (max-width: 800px) {
+    .project-tile {
+        grid-area: 2 / 2 / 3 / 3;
+    }
+    .projec-tiletwo {
+        grid-area: 3 / 2 / 4 / 3;
+    }
+    .project-tilethree {
+        grid-area: 4 / 2 / 5 / 3;
+    }
+}
+
 #img {
     max-width: 200px;
     max-height: auto;
