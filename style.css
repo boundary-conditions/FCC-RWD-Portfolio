@@ -56,8 +56,42 @@ p {
     color: #fff;
 }
 
+#projects {
+    padding-top: 60px;
+}
+
 .gridcontainer {
     display: grid;
     grid-gap: 50px 50px;
-    grid-template-columns: auto;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 60px auto 60px;
+    justify-content: space-around;
+    align-content: center;
+    text-align: center;
+    
+}
+
+.grid-header {
+    grid-area: 1 / 1 / 2 / 4;
+    text-align: center;
+    font-family: 'Roboto Mono';
+}
+
+.project-tile {
+
+}
+
+#img {
+    max-width: 200px;
+    max-height: auto;
+}
+
+#gitimg {
+    max-height: 60px;
+    max-width: auto;
+}
+
+.grid-footer {
+    grid-area: 3 / 1 / 4 / 4;
+    
 }
